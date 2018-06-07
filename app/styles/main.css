@@ -118,7 +118,6 @@ h3 {
 
 .btn {
   font-family: 'Open Sans', sans-serif;
-
 }
 
 .down-arrow {
@@ -128,10 +127,9 @@ h3 {
                  0px 18px 23px rgba(0,0,0,0.1);
 }
 
-
 /* middle container */
 .middle-container {
-  padding: 4% 20% 2% 20%;
+  padding: 4% 20% 4% 20%;
   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,e5e5e5+100;White+3D */
   background: #ffffff; /* Old browsers */
   background: -moz-linear-gradient(-45deg, #ffffff 0%, #e5e5e5 100%); /* FF3.6-15 */
@@ -176,12 +174,28 @@ h3 {
 
 /* lower container */
 .lower-container {
-  padding: 4% 8% 4% 8%;
-  
+  position: relative;
+  text-align: center; 
+  width: auto; 
+  height: 500px;
 }
 
 .lower-content {
-  color: #f8f8f8;
+  color: red;
+}
+
+/* Top left text */
+.top-left {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+}
+
+/* Bottom right text */
+.bottom-right {
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
 }
 
 /* pricing container */
