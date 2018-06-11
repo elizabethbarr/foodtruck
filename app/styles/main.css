@@ -150,12 +150,7 @@ h3 {
 /* middle container */
 .middle-container {
   padding: 4% 10% 4% 10%;
-  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,e5e5e5+100;White+3D */
-  background: #ffffff; /* Old browsers */
-  background: -moz-linear-gradient(-45deg, #ffffff 0%, #e5e5e5 100%); /* FF3.6-15 */
-  background: -webkit-linear-gradient(-45deg, #ffffff 0%,#e5e5e5 100%); /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(135deg, #ffffff 0%,#e5e5e5 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e5e5e5',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+  background-image: linear-gradient(to right bottom, #adadad, #bbbbbb, #c9c9c9, #d7d7d7, #e6e6e6);
  }
 
 .middle-content {
@@ -188,7 +183,7 @@ h3 {
 
 /* lower container */
 .lower-container {
-  padding: 5%;
+  padding: 4%;
 }
 
 .lower-content {
@@ -244,8 +239,13 @@ h3 {
 
 /* workswith container */
 .workswith-container {
-  padding: 4%;
-  background-color: #adadad;
+  padding: 4% 2% 4% 2%;
+  background-image: linear-gradient(to right bottom, #e6e6e6, #d7d7d7, #c9c9c9, #bbbbbb, #adadad);
+}
+
+.workswith-content {
+  height: 100%;
+  width: 100%;
 }
 
 .plays {
@@ -254,25 +254,38 @@ h3 {
   font-weight: 400;
   text-align: center;
   color: #FD5E0F;
+  padding-bottom: 2%;
 }
 
 .alexa-logo {
   display: block;
-  text-align: center;
-  padding-top: 3%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .ask {
   color: white;
-  font-size: 2em;
-  padding-top: 4%;
+  font-size: 1.5em;
   text-align: center;
-  line-height: 1.25;
+  padding-top: 2%;
+}
+
+/* hr container */
+
+.hr-content {
+}
+
+.yeah {
+  font-size: 1.25em;
+  display: block;
+  text-align: right;
+  color: #ADADAD;
+  vertical-align: middle;
+  padding-top: 5%;
 }
 
 /* pricing container */
 .pricing-container {
-  padding: 4%;
   background-image: linear-gradient(to right bottom, #e6e6e6, #d7d7d7, #c9c9c9, #bbbbbb, #adadad);
 }
 
