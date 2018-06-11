@@ -164,7 +164,7 @@ h3 {
 }
 
 .list {
-  color: #231f20;
+  color: white;
   font-size: 2.5em;
   line-height: 1.25;
   padding-top: 2%;
@@ -173,6 +173,7 @@ h3 {
 .hunger {
   padding-top: 2%;
   font-size: 1.25em;
+  color: white;
 }
 
 .learn {
@@ -286,16 +287,62 @@ h3 {
 
 /* pricing container */
 .pricing-container {
-  background-image: linear-gradient(to right bottom, #e6e6e6, #d7d7d7, #c9c9c9, #bbbbbb, #adadad);
+  background-image: linear-gradient(to right bottom, #adadad, #bbbbbb, #c9c9c9, #d7d7d7, #e6e6e6);
 }
 
 .pricing-content {
   color: #f8f8f8;
+  padding: 4% 10% 4% 10%;
+}
+
+.pricing-hed {
+  text-transform: uppercase;
+  font-size: 1em;
+  font-weight: 400;
+  text-align: center;
+  color: #FD5E0F;
 }
 
 .investment {
   font-size: 1.5em;
   font-weight: 400;
+  padding: 3%;
+}
+
+.coding {
+  padding-left: 3%;
+
+}
+
+.daily {
+  padding: 3% 0 4% 3%;
+
+}
+
+.pricing-panel {
+  padding: 3%;
+}
+
+.panel-title{
+  text-align: center;
+  color: #FD5E0F;
+}
+
+.unlimited {
+  color: #6F6C6D;
+}
+
+.dot {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: -10%;
+  margin-top: -20%;
+}
+
+.panel-footer {
+  color: #6F6C6D;
+  text-align: center;
 }
 
 /* footer */
