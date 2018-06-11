@@ -176,10 +176,10 @@ h3 {
   color: white;
 }
 
-.learn {
+.demo {
   padding-top: 5%;
-  text-align: right;
   font-size: 1.25em;
+  text-align: right;
 }
 
 /* lower container */
@@ -306,6 +306,14 @@ h3 {
 .investment {
   font-size: 1.5em;
   font-weight: 400;
+  text-align: center;
+  color: #FD5E0F;
+  padding-top: 8%;
+ }
+ 
+  .custom {
+  font-size: 1.5em;
+  font-weight: 400;
   padding: 3%;
 }
 
@@ -337,7 +345,7 @@ h3 {
   margin-left: auto;
   margin-right: auto;
   margin-bottom: -10%;
-  margin-top: -20%;
+  margin-top: -30%;
 }
 
 .panel-footer {
