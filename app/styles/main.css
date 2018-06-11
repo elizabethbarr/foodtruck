@@ -28,6 +28,11 @@ body {
   text-decoration: none;
 }
 
+.bluelink:visited {
+  color: #31C4F3;
+  text-decoration: none;
+}
+
 .orangelink {
   color: #FD5E0F;
   text-decoration: none;
@@ -40,6 +45,11 @@ body {
 
 .orangelink:active {
   color: #444444;
+  text-decoration: none;
+}
+
+.orangelink:visited {
+  color: #FD5E0F;
   text-decoration: none;
 }
 
@@ -79,7 +89,7 @@ body {
 }
 
 .whitelink:visited {
-  color: #FD5E0F;
+  color: white;
   text-decoration: none;
 }
 
@@ -307,11 +317,11 @@ h3 {
   font-size: 1.5em;
   font-weight: 400;
   text-align: center;
-  color: #FD5E0F;
+  color: #31C4F3;
   padding-top: 8%;
  }
  
-  .custom {
+.custom {
   font-size: 1.5em;
   font-weight: 400;
   padding: 3%;
@@ -319,7 +329,6 @@ h3 {
 
 .coding {
   padding-left: 3%;
-
 }
 
 .daily {
