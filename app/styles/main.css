@@ -442,8 +442,26 @@ h3 {
 }
 
 /* howitworks.html */
+
+.howitworks-hed {
+
+}
+
 .howitworks-container {
-  padding: 10% 10% 0 34%;
+  padding: 5% 10% 5% 20%;
+  color: #333333;
+}
+
+.demo-container {
+}
+
+.demo-hed {
+  text-transform: uppercase;
+  font-size: 1em;
+  font-weight: 400;
+  text-align: center;
+  color: #FD5E0F;
+  padding-bottom: 1%;
 }
 
 /* login.html and signup.html */
