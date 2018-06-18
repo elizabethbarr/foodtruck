@@ -443,7 +443,7 @@ h3 {
 /* howitworks.html */
 .howitworks-hed {
   padding: 5% 10% 2% 20%;
-  color: #333333;
+  color: white;
 }
 
 .howitworks-photocontainer {
@@ -452,11 +452,11 @@ h3 {
   background-position: center; 
   width: 100%;
   height: 100%;
-  opacity: 0.75;
+  opacity: 0.8;
 }
 
 .howitworks-container {
-  padding: 15% 8% 4% 8%;
+  padding: 13% 8% 4% 8%;
   vertical-align: center;
 }
 
