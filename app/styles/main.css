@@ -498,9 +498,8 @@ h3 {
 }
 
 /* signup.html */
-.signup-container {
-  padding: 5%;
-  color: #fff;
+.moonclerk-container {
+  padding: 8% 20% 5% 20%;
   background: #63738a;
   font-family: 'Open Sans', sans-serif;
 }
@@ -528,8 +527,6 @@ h3 {
 .alt-footer-container {
   padding: 2% 8% 2% 8%;
   background-color: #f8f8f8;
-  bottom: 0;
-  position: absolute;
   width: 100%;
 }
 
