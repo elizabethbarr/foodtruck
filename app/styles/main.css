@@ -498,8 +498,14 @@ h3 {
 }
 
 /* signup.html */
+.conditions-container {
+  padding-top: 8%;
+  background: #63738a;
+  color: white;
+}
+
 .moonclerk-container {
-  padding: 8% 20% 5% 20%;
+  padding: 5% 20% 5% 20%;
   background: #63738a;
   font-family: 'Open Sans', sans-serif;
 }
